@@ -138,7 +138,17 @@ Optamos por utilizar Azure Blob Storage / Google Cloud Services debido a su exce
 
 **Proceso de Transformación de Datos**
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXX  FALTA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+El proceso de Extracción, Transformación y Carga (ETL) se lleva a cabo en varias etapas para procesar los datos en bruto (raw data) de manera eficiente y prepararlos para su posterior análisis:
+
+En primer lugar, se inicia verificando la presencia de duplicados, valores nulos y variables que no son relevantes para el modelo propuesto. Esta fase de limpieza garantiza que los datos estén libres de inconsistencias y sean aptos para su procesamiento.
+
+Posteriormente, se procede a aplicar filtros basados en el estado y la categoría, considerando tanto el aspecto empresarial como la información de metadatos. Esta segmentación permite enfocarse en los datos específicos de interés y descartar aquellos que no son pertinentes para el análisis.
+
+A continuación, se realiza un filtrado adicional para seleccionar las reseñas que corresponden únicamente a los registros previamente identificados. Esto asegura que solo se consideren las opiniones relacionadas con los estados y negocios de interés, afinando aún más el conjunto de datos.
+
+Una vez completada la fase de filtrado, se procede a convertir los valores en milisegundos a fechas en un formato corto (dd-mm-yyyy). Esta transformación facilita la interpretación y el análisis temporal de los datos en un formato más legible.
+
+Finalmente, se lleva a cabo una etapa de pre-procesamiento de las reseñas con el objetivo de optimizar el proceso en la nube. Esto podría implicar la eliminación de información redundante, la normalización del texto o la reducción de ruido en los datos, todo ello con el fin de agilizar el análisis subsiguiente y mejorar la eficiencia en el uso de recursos en la nube. En conjunto, este proceso ETL garantiza que los datos sean limpios, relevantes y estén en una forma óptima para su análisis ulterior.
 
 **Automatización a través de Cloud Functions**
 
