@@ -3,7 +3,7 @@
 # Proyecto Final - Google Yelp 
 
 
-## [Índice de contenidos](#0)
+## [Índice de contenidos](#0)<a class="anchor" id="0-0"></a>
 
 **1. [Sobre Nosotros](#1)**
 
@@ -14,6 +14,10 @@
 **4. [KPI para el Modelo de Negocios](#4)**
 
 **5. [Arquitectura del Proyecto](#5)**
+
+**6. [Alcance del Pryecto](#6)**
+
+**7. [Stack tecnologico](#7)**
 
 ## 1. Sobre Nosotros<a class="anchor" id="1"></a>
 
@@ -27,7 +31,7 @@ David Nocera (Data Analyst & Scientist)
 
 [Volver - Índice](#0-0)
 
-## 2. Contexto: Entendimiento y Síntesis del Problema<a class="anchor" id="1"></a>
+## 2. Contexto: Entendimiento y Síntesis del Problema<a class="anchor" id="2"></a>
 Como consultores de datos, nuestro enfoque se concentra en el análisis de la información recopilada de plataformas de reseñas como Yelp y Google Maps. El objetivo primordial de nuestro análisis radica en descubrir patrones y tendencias en las opiniones de los usuarios, con el propósito de comprender sus experiencias, necesidades y expectativas en relación a diversos servicios. Este análisis de datos brindará un profundo entendimiento a partir de los datos proporcionados, permitiéndonos asesorar y ofrecer recomendaciones a posibles inversores interesados en el proyecto. Esto resulta de suma relevancia a la hora de tomar decisiones estratégicas y mejorar la imagen y reputación de nuestros clientes. Para lograr este cometido, aplicamos técnicas avanzadas de análisis de sentimientos y machine learning, con el fin de proporcionar a nuestros clientes un modelo de recomendación accesible y realista.
 
 **Requerimientos**
@@ -38,11 +42,11 @@ Sistema de Recomendación: Basado en intereses y perfil del consumidor, recomend
 
 [Volver - Índice](#0-0)
 
-## 3. Solución Propuesta<a class="anchor" id="1"></a>
+## 3. Solución Propuesta<a class="anchor" id="3"></a>
 
 **Pet Care Market: Análisis de Mercado para Modelo de Negocios en la Industria de Mascotas y Afines**
 
-### 3.1 Elección del modelo parametrizable<a class="anchor" id="1"></a>
+### 3.1 Elección del modelo parametrizable<a class="anchor" id="3"></a>
 En base a toda la data suministrada y a un exhaustivo estudio de mercado se establecieron criterios que permitan que nuestro producto sea escalable y parametrizable. Para ello, se establecieron criterios de selección de la data piloto: 
 En primer medida, nos basamos en el análisis demográfico, que nos permitirá tener un tamaño muestral lo suficientemente representativo, estableciendo el ranking descendente de los estados con mayor densidad poblacional;
 En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
@@ -54,7 +58,7 @@ En 2021, el valor del mercado global de cuidado de mascotas alcanzó los 150.67 
 
 [Volver - Índice](#0-0)
 
-### 3.2 Objetivos específicos<a class="anchor" id="1"></a>
+### 3.2 Objetivos específicos<a class="anchor" id="3"></a>
 1. Asegurar la Disponibilidad de Datos Limpios y Estructurados: Recolectar,
 depurar y disponer la información relevante de plataformas de reseñas
 como Yelp y Google Maps. Esto asegurará la calidad y coherencia de los datos para
@@ -72,7 +76,7 @@ servicios, mediante el uso de las reseñas recopiladas de Yelp y Google Maps.
 
 [Volver - Índice](#0-0)
 
-### 3.3 Ejes del Proyecto<a class="anchor" id="1"></a>
+### 3.3 Ejes del Proyecto<a class="anchor" id="3"></a>
 
 **Adaptabilidad y Validación Técnica:**
 Ofrecemos una solución personalizada, paramétrica y escalable que se adapta a las necesidades específicas del cliente. Mediante la aplicación de la teoría de las restricciones, validamos la factibilidad técnica de esta propuesta y optamos por la ejecución de un modelo piloto. Esta decisión busca reducir los costos para el cliente, al mismo tiempo que garantiza la viabilidad y efectividad del proyecto.
@@ -94,7 +98,7 @@ Optimizaremos la representación de datos y reduciremos la complejidad visual me
 
 [Volver - Índice](#0-0)
 
-## 4. KPI para el Modelo de Negocios<a class="anchor" id="1"></a>
+## 4. KPI para el Modelo de Negocios<a class="anchor" id="4"></a>
 Los indicadores clave de rendimiento (KPI) deben alinearse con los objetivos comerciales del destinatario y proporcionar información esencial para tomar decisiones fundamentadas. En consecuencia, los KPI pueden variar según el modelo de negocio y con mayor precisión, deben reflejar la estrategia y los objetivos específicos del análisis, teniendo en cuenta los criterios "SMART".
 
 Es factible abordar la definición de KPI desde diferentes perspectivas:
@@ -128,7 +132,7 @@ Estos KPI's están diseñados para proporcionar información precisa y significa
 
 [Volver - Índice](#0-0)
 
-## 5. Arquitectura del Proyecto<a class="anchor" id="1"></a>
+## 5. Arquitectura del Proyecto<a class="anchor" id="5"></a>
 
 **Implementación del Data Warehouse**
 
@@ -174,7 +178,7 @@ El Modelo Entidad-Relación (ER) despliega la estructura y las interacciones de 
 
 [Volver - Índice](#0-0)
 
-## 6. Alcance del Proyecto<a class="anchor" id="1"></a>
+## 6. Alcance del Proyecto<a class="anchor" id="6"></a>
 
 **Alcance Temporal**
 El proyecto se llevará a cabo en un período de seis semanas, divididas en tres Sprints, con una duración de dos semanas cada uno para segmentar las actividades. Durante las primeras cinco semanas, se completarán los hitos planificados, que incluyen la recolección de datos, análisis exploratorio y desarrollo de modelos de machine learning. La última semana se destinará a realizar ajustes, optimización y preparación de la presentación final.
@@ -199,7 +203,7 @@ El proyecto tiene como objetivo impactar tanto a empresarios como a clientes al 
 
 [Volver - Índice](#0-0)
 
-**[Herramientas a usar](#)**:
+## 7. Stack Tecnológico<a class="anchor" id="7"></a>
 1. Google Drive
 2. MongoDB
 3. Cosmos DB
@@ -211,5 +215,6 @@ El proyecto tiene como objetivo impactar tanto a empresarios como a clientes al 
 9. Visual Studio Code
 10. Google Colab
 11. Looker Studio
+12. Google Cloud Services
 
 [Volver - Índice](#0-0)
