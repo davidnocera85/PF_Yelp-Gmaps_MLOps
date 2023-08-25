@@ -42,12 +42,19 @@ Como consultores de datos, nuestro enfoque se concentra en el análisis de la in
 **Requerimientos**
 
 Análisis de Sentimientos:
+
  Se solicita un análisis basado en sentimientos, cruzando la información de Yelp y Google Maps.
+
 Predicciones:
+
  Usando la información de sentimientos, predecir qué rubros crecerán (trend analysis).
+
 Zonificación:
+
  Determinar qué zonas son más atractivas para ubicar nuevos locales (zonificación basada en geolocalización).
+
 Sistema de Recomendación:
+
  Basado en intereses y perfil del consumidor, recomendar experiencias similares.
 
 [Volver - Índice](#0-0)
@@ -58,14 +65,13 @@ Sistema de Recomendación:
 
 ### 3.1 Elección del modelo parametrizable<a class="anchor" id="3"></a>
 
-En base a toda la data suministrada y a un exhaustivo estudio de mercado se establecieron criterios que permitan que nuestro producto sea escalable y parametrizable. Para ello, se establecieron criterios de selección de la data piloto: 
-En primer medida, nos basamos en el análisis demográfico, que nos permitirá tener un tamaño muestral lo suficientemente representativo, estableciendo el ranking descendente de los estados con mayor densidad poblacional;
-En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
-En tercer lugar, se tuvo en cuenta el índice de criminalidad, ya que por el tipo de negocios abarcados en los datos brindados y las necesidades de nuestro cliente resulta una variable a considerar; por lo que se emplea el ranking descendiente de los estados más seguros; 
+En base a toda la data suministrada y a un exhaustivo estudio de mercado se establecieron criterios que permitan que nuestro producto sea escalable y parametrizable. Para ello, se establecieron criterios de selección de la data piloto:
+ En primer medida, nos basamos en el análisis demográfico, que nos permitirá tener un tamaño muestral lo suficientemente representativo, estableciendo el ranking descendente de los estados con mayor densidad poblacional;
+ En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
+ En tercer lugar, se tuvo en cuenta el índice de criminalidad, ya que por el tipo de negocios abarcados en los datos brindados y las necesidades de nuestro cliente resulta una variable a considerar; por lo que se emplea el ranking descendiente de los estados más seguros; 
 En base a estos criterios se seleccionaron los siguientes estados modelo para la prueba piloto: New Jersey, California y Florida.
 Adicionalmente, se propone dentro de las categorías definidas en los datos aportados, focalizar el análisis en el segmento de productos y servicios para mascotas, considerando los siguientes indicadores:
-
-En 2021, el valor del mercado global de cuidado de mascotas alcanzó los 150.67 mil millones de dólares, y se proyecta un crecimiento anual compuesto (CAGR) del 5.1 % desde 2022 hasta 2030. Esto se traduce en un mercado estimado de alrededor de 232.140 mil millones de dólares. Otro dato relevante es que en 2021, Estados Unidos contribuyó con el 43 % de la cuota de mercado global. Además, según una encuesta nacional realizada por la Asociación Estadounidense de Productos para Mascotas (APPA), alrededor del 70 % de los hogares estadounidenses tenían una mascota en 2020. 
+ En 2021, el valor del mercado global de cuidado de mascotas alcanzó los 150.67 mil millones de dólares, y se proyecta un crecimiento anual compuesto (CAGR) del 5.1 % desde 2022 hasta 2030. Esto se traduce en un mercado estimado de alrededor de 232.140 mil millones de dólares. Otro dato relevante es que en 2021, Estados Unidos contribuyó con el 43 % de la cuota de mercado global. Además, según una encuesta nacional realizada por la Asociación Estadounidense de Productos para Mascotas (APPA), alrededor del 70 % de los hogares estadounidenses tenían una mascota en 2020. 
 
 [Volver - Índice](#0-0)
 
